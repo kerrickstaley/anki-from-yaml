@@ -17,7 +17,8 @@ def main(args):
         note = genanki.Note(
             model=genanki.builtin_models.CLOZE_MODEL,
             fields=[note_data['cloze'], note_data.get('extra', '')],
-            guid=note_data.get('guid'))
+            guid=note_data.get('guid'),
+            tags=note_data.get('tags'))
 
         deck.add_note(note)
 

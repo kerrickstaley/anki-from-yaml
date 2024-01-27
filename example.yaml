@@ -1,3 +1,4 @@
 name: 'Capitals'
 notes:
   - cloze: The capital of {{c1::Argentina}} is {{c2::Buenos Aires}}.
+    tags: ['south-america']
